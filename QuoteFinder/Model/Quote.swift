@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Quote: Identifiable, Codable {
+struct Quote: Codable {
     
     // MARK: Stored properties
     let quoteText:String
     let quoteAuthor:String
-    let id: Int
+   
         
 }
