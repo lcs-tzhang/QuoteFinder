@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct QuoteView: View {
+    
+    @State var viewModel = QuoteViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if let currentQuote = viewModel.currentQuote{
+                Group{
+                    Text(currentQuote.quoteText ?? "")
+                        .padding(.bottom, 100)
+                    Text(currentQuote.quoteAuthor ?? "")
+                }
+                .font(.title)
+                .multilineTextAlignment(.center)
+            }
         }
         .padding()
     }
