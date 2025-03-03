@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Quote: Identifiable, Codable {
+    
+    // MARK: Stored properties
+    let quoteText:String
+    let quoteAuthor:String
+    let id: Int
+        
+}
