@@ -63,12 +63,12 @@
 		517501192D763E0200CCB0D3 /* QuoteFinder */ = {
 			isa = PBXGroup;
 			children = (
+				517501182D763E0200CCB0D3 /* QuoteFinderApp.swift */,
 				517501202D763E3600CCB0D3 /* Model */,
 				5175011F2D763E2700CCB0D3 /* ViewModels */,
 				5175011E2D763E1900CCB0D3 /* View */,
 				517501152D763E0200CCB0D3 /* Preview Content */,
 				517501162D763E0200CCB0D3 /* Assets.xcassets */,
-				517501182D763E0200CCB0D3 /* QuoteFinderApp.swift */,
 			);
 			path = QuoteFinder;
 			sourceTree = "<group>";
